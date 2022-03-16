@@ -20,14 +20,6 @@ public class StudentService {
     private List<Course> init2 = new ArrayList<>();
 
     { //Initializing a couple of students
-        //Course course1 = new Course("Java for beginners", "Mr. Clever", "Basics of Java");
-        //Course course2 = new Course("Learn C++", "Mr. BigBrain", "Learn C++ with us");
-        //Course course3 = new Course("Basics of React", "Mr. Genius", "Exploring React: a JavaScript library");
-
-        //init1.add(course1);
-        //init1.add(course2);
-        //init2.add(course3);
-
         Student student1 = new Student("Matthew Mabee", "TVT21KMO",
                 "matthew.mabee@unistudent.org", init1);
 
