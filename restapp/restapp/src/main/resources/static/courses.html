@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h2 id="mainBar" class=" mb-4 p-2 text-center font-weight-bold text-white bg-dark">Add Course</h2>
+    <script src="courses.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="mx-auto p-5 bg-light" style="width: 600px;">
+    <form autocomplete="off">
+        <div class="form-group">
+            <label for="name">Course name</label>
+            <textarea class="form-control" id="name" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="group">Course teacher</label>
+            <textarea class="form-control" id="teacher" rows="1"></textarea>
+        </div>
+        <div class="form-group" autocomplete="off">
+            <label for="email">Course description</label>
+            <textarea class="form-control" id="desc" rows="1"></textarea>
+        </div>
+    </form>
+
+    <div class="row mt-3">
+        <div class="col">
+            <button id="submitButton" class="btn btn-success">Add course</button>
+        </div>
+        <div class="col">
+            <form action="index.html">
+                <input type="submit" value="Go back" class="btn btn-secondary" />
+            </form>
+        </div>
+    </div>
+</div>   
+
+</body>
+</html>

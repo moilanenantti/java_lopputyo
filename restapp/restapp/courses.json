@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Java for beginners",
+      "teacher": "John Doe",
+      "target": "TVT22KMO",
+      "classroom": "",
+      "online": true,
+      "participants": []
+    },
+    {
+      "id": 2,
+      "name": "Basics of React",
+      "teacher": "Myles Rice",
+      "target": "TVT22KMO",
+      "classroom": "B123",
+      "online": false,
+      "participants": []
+    }
+  ]
+}
